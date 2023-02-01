@@ -100,7 +100,7 @@ let dicegame = function() {
     //Generate a random number in a dice from 1 to 6
     const randomNum = Math.floor(Math.random() * 6) + 1;
 
-    const diceImage = "diceimages/dice" + randomNum + ".png";
+    const diceImage = "dice" + randomNum + ".png";
 
     document.querySelectorAll('img')[0].setAttribute("src" , diceImage);
 
